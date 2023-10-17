@@ -8,7 +8,11 @@ scanf("%d", &num);
 
 for (int i = 1; i <= num; i++)
 {
-    /* code */
+    if (num % i == 0)
+    {
+        printf("%d\n", i);
+    }
+    
 }
 
 
