@@ -16,3 +16,6 @@ suma+= num % 10;
 num /= 10;
 
 }
+
+printf("El resultado de la suma de sus numeros es %d\n", suma);
+}
