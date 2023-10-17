@@ -9,7 +9,13 @@ int aux3;
 
 printf("Coloque la cantidad de numero que se debe mostrar de la serie de Fibonacci\n");
 scanf("%d", &num);
-for (int i = 0; i < num; i++)
+printf("Los %d primeros numeros de la serie de Fibonacci son\n", num);
+if (num<0)
+{
+    printf("No se puede colocar numero negativos\n");
+}
+else{
+    for (int i = 0; i < num; i++)
 {
     if (i <= 1)
     {
@@ -23,11 +29,6 @@ for (int i = 0; i < num; i++)
     
     printf("%d\n", aux3);
 }
-
-
-
-
-
-
+}
 
 }
