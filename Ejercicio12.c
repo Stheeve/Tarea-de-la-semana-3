@@ -9,7 +9,8 @@ int aux=0;
 printf("Coloque un numero entero de 3 dijitos\n");
 scanf("%d", &num);
 
- while(num>0){
+if (num>=100 && num <=999){
+    while(num>0){
         digito=num % 10;
         if (digito==1){
             aux=1;
