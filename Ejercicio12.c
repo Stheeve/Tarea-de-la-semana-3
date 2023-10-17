@@ -26,3 +26,15 @@ if (num>=100 && num <=999){
 
         printf("El numero no tiene el digito 1\n");
     }
+
+}
+
+
+ else{
+    printf("El numero ingresado no tiene 3 dijitos\n");
+   }
+   return 0;
+
+
+
+}
