@@ -19,3 +19,8 @@ num /= 10;
 
 printf("El resultado de la suma de sus numeros es %d\n", suma);
 }
+else {
+    printf("El numero colocado es un numero negativo\n");
+}
+
+}
