@@ -1,8 +1,12 @@
 #include <stdio.h>
 int main(){
 
-int aux1=0;
-int aux2=1;
+int aux1=1;
+for (int i = 0; i < 10; i++)
+{
+
+}
+
 
 
 
