@@ -9,6 +9,10 @@ int aux3;
 
 printf("Coloque un numero que se o el 1 o el 0\n");
 scanf("%d", &num);
+for (int i = 0; i < num; i++)
+{
+    
+}
 
 
 
