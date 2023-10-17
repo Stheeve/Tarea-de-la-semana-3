@@ -9,7 +9,10 @@ for (int i = 0; i < 10; i++)
         aux1=i/2+1;
     }
     printf("(%d,%d)", i, aux1);
-
+    if (i<9)
+    {
+        printf(",");
+    }
     
 }
 
